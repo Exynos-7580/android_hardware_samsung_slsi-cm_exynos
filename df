@@ -1,0 +1,14 @@
+diff --git a/libstagefrighthw/Android.mk b/libstagefrighthw/Android.mk
+index a8af63c..c40d347 100644
+--- a/libstagefrighthw/Android.mk
++++ b/libstagefrighthw/Android.mk
+@@ -31,7 +31,8 @@ LOCAL_SHARED_LIBRARIES :=    \
+         libcutils            \
+         libui                \
+         libdl                \
+-        libstagefright_foundation
++        libstagefright_foundation \
++	liblog
+ 
+ LOCAL_MODULE := libstagefrighthw
+ 
